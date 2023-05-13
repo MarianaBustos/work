@@ -1,0 +1,246 @@
+body h5 {
+  font-size: 16px;
+}
+body p {
+  font-size: 12px;
+}
+
+header > div {
+  background-color: #012443;
+  color: white;
+}
+header > div div {
+  padding: 2% 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+header > div div p {
+  margin-bottom: 0;
+}
+
+.seccion1 {
+  color: white;
+  background-image: url(./images/banner_bg.png);
+  background-size: cover;
+  background-position: 82%;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  background-attachment: fixed;
+}
+.seccion1 span {
+  display: none;
+}
+.seccion1 .textoPortada {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 10vh;
+}
+.seccion1 .textoPortada1 {
+  color: red;
+  font-size: 16px;
+  font-weight: 200;
+}
+.seccion1 .textoPortada2 {
+  color: #012443;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.fotoPerro1 {
+  padding: 5%;
+}
+.fotoPerro1 img {
+  width: 90%;
+}
+
+.textoPerro1 {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.textoPerro1 img {
+  width: 40px;
+  padding-bottom: 2%;
+}
+
+.seccion3 {
+  background-color: #f0f8f8;
+  text-align: center;
+  padding: 0 5%;
+}
+.seccion3 .textoTitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
+}
+.seccion3 img {
+  width: 40px;
+}
+
+.Perro1,
+.Perro2,
+.Perro3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Perro1 img,
+.Perro2 img,
+.Perro3 img {
+  width: 50%;
+  margin: 10%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+}
+
+.seccion5 {
+  color: white;
+  background-image: url(./images/review_bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  background-attachment: fixed;
+}
+
+.seccion6 button {
+  background-color: #009fb3;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  font-size: 8px;
+}
+
+.seccion7 {
+  background-color: #012443;
+  text-align: center;
+  padding: 0 5%;
+  color: white;
+}
+.seccion7 .textoTitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
+}
+.seccion7 img {
+  width: 40px;
+}
+.seccion7 button {
+  background-color: #e40f3c;
+  border-radius: 3px;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.footer {
+  padding: 5px;
+}
+
+.centrando {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.home {
+  padding: 30px 0px;
+}
+.home p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .seccion1 {
+    height: 90wh;
+    background-position: 75%;
+  }
+  .seccion1 span {
+    display: none;
+  }
+  .seccion1 .textoPortada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50%;
+    text-align: center;
+  }
+  .seccion1 .textoPortada1 {
+    font-size: 15px;
+  }
+  .seccion1 .textoPortada2 {
+    font-size: 35px;
+  }
+  header > div {
+    display: none;
+  }
+  header > div {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  .seccion2,
+  .seccion3,
+  .seccion4,
+  .seccion5,
+  .seccion6,
+  .seccion7 p {
+    text-align: justify;
+  }
+  .seccion1 .textoPortada {
+    padding-left: 0;
+    padding-bottom: 300px;
+  }
+  .seccion1 .textoPortada .textoPortada1 {
+    font-size: 18px;
+  }
+  .seccion1 .textoPortada .textoPortada2 {
+    font-size: 30px;
+  }
+  .seccion1 {
+    height: 90vh;
+  }
+  .seccion1 span {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  header > div {
+    display: none;
+  }
+  .textoPerro1 img {
+    margin-left: 45%;
+  }
+}/*# sourceMappingURL=style.css.map */

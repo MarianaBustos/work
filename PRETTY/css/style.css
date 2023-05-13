@@ -1,0 +1,552 @@
+* {
+    font-family: "Raleway", sans-serif;
+  }
+  
+header {
+    background-image: url(../images/bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height:90vh ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg1 img {
+height: 130px;
+width: 130px;
+text-align: center;
+padding-left: 35px;
+}
+
+.bg1 h3 {   
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: normal;
+
+ }   
+
+ .bg1 h1 {   
+    text-align: center;
+    font-size: 25px;
+ }   
+ .bg1 button {   
+color: white;
+background-color: rgba(138,221,45,0); 
+opacity: 1;
+margin-left: 40px;
+padding: 15px;
+border:1px solid white;
+border-radius: 20px;
+ }
+ button:hover {
+    background-color: black;
+    color: white;
+ }
+.skin {
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    margin: 30px 0px;
+}
+.skin div {
+    padding: 10px;
+}
+.skin img {
+    /* width: 20%;
+    min-width:30px ;
+    max-width: 50px; */
+    width: clamp(30px, 20%, 50px);
+}
+.skin h3 {
+    color: black;
+    font-size: 14px;
+}
+
+.skin p {
+    color: rgb(150, 150, 150);
+    font-size: 12px;
+}
+
+.mujeres {
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+} 
+.mujeres h1 {
+padding-top: 30px;
+font-size: 16px;
+
+}
+
+.mujeres p {
+color: rgb(150, 150, 150);
+    font-size: 12px;
+}
+
+.caras {
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.caras1 {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+}
+.caras2 {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.caras img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+.caras h3 {
+    color: black;
+    font-size: 14px;
+}
+
+.caras p {
+    color: rgb(150, 150, 150);
+    font-size: 12px;
+}
+
+.individual {
+    background-color: white;
+    margin: 10px;
+}
+.caras1 .div{
+    padding-right: 10px;
+}
+
+.bg2 {
+background-image: url(../images/bg_2.jpg);
+background-size: cover;
+background-position: center;
+height:100vh ;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:end;
+}
+
+.bg2 h3 {   
+    font-size: 12px;
+    padding-bottom: 5px;
+    font-weight: normal;
+
+ }   
+
+ .bg2 h1 {   
+    font-size: 20px;
+    font-weight: normal;
+ }
+.bg2 p {   
+        font-size: 12px;
+ }   
+ .bg2 button {   
+    color: white;
+    background-color: rgba(138,221,45,0); 
+    opacity: 1;
+    padding: 15px;
+    border:1px solid white;
+    border-radius: 20px;
+ }
+ button:hover {
+    background-color: black;
+    color: white;
+ }
+
+ .caja {
+    width: 30%;
+ }
+
+ .work {
+            
+        text-align: center;
+        } 
+        .work h1 {
+        padding-top: 30px;
+        font-size: 16px;
+        
+        }
+        
+        .work p {
+        color: rgb(150, 150, 150);
+            font-size: 12px;
+        }
+
+        .modelos {
+            display: flex;
+            
+            text-align: center;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items: center;
+            width: 100vw;
+        }
+        .individual2 {
+            display: flex;
+            text-align: center;
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+    }
+        .individual2 img {
+            width: 80%;
+            margin-top: 10px;
+    
+        }
+        
+.marcas {
+    background-color: rgb(247, 247, 247);
+    height:30vh ;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top: 20px;
+}
+.marquita {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 20%;
+    padding: 5px;
+}
+.marquita img {
+    width: 100%;
+    mix-blend-mode:multiply;
+}
+.price {
+    text-align: center;
+    background-color: white;
+
+} 
+.price h1 {
+padding-top: 30px;
+font-size: 16px;
+
+}
+
+.tabla {
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.preciosGen1 {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        padding-right: 20px;
+        width: 40%;
+
+
+}
+.preciosGen2 {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding-right: 20px;
+width: 40%;
+}
+.precios {
+    border: solid 1px rgb(247, 247, 247);
+    
+  
+}
+.precios :hover {
+    border : 1px solid fuchsia;        
+        
+    }
+
+.price p {
+color: rgb(150, 150, 150);
+    font-size: 12px;
+    padding-bottom: 30px;
+
+}
+span{
+    color: fuchsia;
+}
+.dos{
+    background-color: rgb(247, 247, 247);
+}
+th {
+    background-color: rgb(247, 247, 247);
+    margin: 15px 150px;
+    color: black;
+    
+
+    }
+ .tr {
+        padding: 20px;
+       
+    }
+    td {
+        padding: 15px;
+        color: rgb(133, 133, 133);       
+    }
+
+    .cierre {
+        background-color: fuchsia;
+        height: 70vh;
+        display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    }
+    .izquierda {
+        width: 50%;
+        background-color: rgb(255	75	230	);
+        border: 3px solid rgb(251, 96, 255);
+        border-radius: 20px;
+    }
+
+footer h3 {
+    font-size: 14px;
+    margin: 30px 0px;
+    margin-bottom: 10px;
+}
+footer p {
+    font-size: 10px;
+    margin: 30px 0px;
+ 
+}
+.derecha h3 {
+text-align: left;
+}
+
+
+.derecha {
+     width: 40%;
+    display: flex;
+text-align:left;
+flex-direction: column;
+justify-content:space-around;
+
+    }
+.nombre {
+display: flex;
+text-align:left;
+flex-direction: row;
+justify-content:left;
+align-items: center;
+}
+.dat-phone {
+display: flex;
+text-align:left;
+flex-direction: row;
+justify-content:left;
+align-items: center;
+}
+
+input {
+        color: #fff;
+        background-color:fuchsia;
+        border:none;
+        border-bottom:1px solid #fff;
+        margin-right: 5px;;
+    }
+        textarea {
+            color: #fff;
+            background-color:fuchsia;
+            border:none;
+            border-bottom:1px solid #fff;   
+}
+    
+
+
+ button {
+background-color:fuchsia;
+color: white;
+opacity: 1;
+border:1px solid white;
+border-radius: 20px;
+padding: 15px;
+}
+
+footer button:hover {
+    background-color: white;
+    color: fuchsia;
+ }
+
+
+        @media(min-width:391px) and (max-width:768px){
+            .caras {
+                display: flex;
+                padding: 40px;
+                text-align: center;
+                flex-direction: column;
+                justify-content:center;
+                align-items: center;
+            }
+        
+        .tabla {
+            display: flex;
+                padding: 10px;
+                text-align: center;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                }
+                .preciosGen1 {
+                    margin-bottom: 40px;          
+        }
+       
+    .cierre {
+        background-color: fuchsia;
+        height: 50vh;
+       
+    }
+}
+        @media(min-width:0px) and (max-width:390px){
+            .caras {
+                display: flex;
+                padding: 10px;
+                text-align: center;
+                flex-direction: column;
+                justify-content:center;
+                align-items: center;
+                margin: 0px;
+                }
+            
+        .caras1 {
+                    display: flex;
+                    text-align: center;
+                    flex-direction: column;
+                    justify-content:space-evenly;
+                    align-items: center;
+            }
+            .caras2 {
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                justify-content:space-evenly;
+                align-items: center;
+        
+            }
+            .skin {
+                display: flex;
+                flex-direction: column;
+                justify-content:end;
+                align-items: end;
+                padding: 40px;
+                text-align: center;
+                margin: 30px 0px;
+            
+            }
+            .bg2 {
+                background-image: url(../images/bg_2.jpg);
+                background-size: cover;
+                filter: brightness(0.5);
+                background-position: center;
+                opacity: 1;        
+                height:40vh ;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items:center;
+                }
+                .caja {
+                    width: 80%;
+                 }
+                
+
+            .tabla {
+                display: flex;
+                padding: 10px;
+                text-align: center;
+                flex-direction: column;
+                justify-content:center;
+                align-items: center;
+                margin: 0px;
+                }
+            
+        .preciosGen1 {
+                    display: flex;
+                    text-align: center;
+                    flex-direction: column;
+                    justify-content:space-evenly;
+                    align-items: center;
+            }
+            .preciosGen2 {
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                justify-content:space-evenly;
+                align-items: center;
+        
+            }
+            .modelos {
+                display: flex;
+                    padding: 10px;
+                    text-align: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    }
+        .marcas {
+        height: 200vw;;  
+         display: flex;
+            flex-direction: column;
+             justify-content:space-around;
+              align-items:center;
+                    }
+            .marquita {
+                width: 80%;
+            }      
+                      
+            .precios {
+                    border: solid 1px fuchsia;
+                }
+                .preciosGen2{
+                    margin-top: 30px;
+                }
+            
+                .cierre {
+                    height: 100vh;
+                    display: flex;
+                text-align: center;
+                flex-direction: column;
+                justify-content:space-around;
+                align-items: center;
+                color: white;
+
+        }
+        .izquierda {
+            width: 85%;
+           
+        }
+         .derecha {
+            width: 85%;
+           
+        }
+    }

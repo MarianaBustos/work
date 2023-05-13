@@ -1,0 +1,61 @@
+.navbar-expand-lg {
+display: flex;
+flex-direction: column;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight:500;
+}
+.navbar-nav{
+    padding: 2vh 0;
+    color: gray; 
+    font-size: 20px;
+    font-weight: 300; 
+
+}
+.navbar-link, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link, .nav-link.disabled{
+    color: gray;
+    font-weight: 300; 
+
+}
+
+.seccion1{
+    background-image: url(../images/pic01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vw;
+}
+.seccion1>div{
+    background-color: #323031;
+    height: 30%;
+    width: 50%;
+    margin: 20% 25%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.red{
+    color: #BE0D1E;
+}
+.white{
+    padding-top: 20px;
+}
+
+.seccion2{
+    padding: 30px;
+}
+.seccion2 img{
+    width: 10vw;
+}
+
+.seccion2 div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}

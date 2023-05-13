@@ -1,0 +1,232 @@
+$color_blue: #012443;
+
+@mixin flex-container($j-content, $a-items, $f-direction: row) {
+  display: flex;
+  justify-content: $j-content;
+  align-items: $a-items;
+  flex-direction: $f-direction;
+}
+body {
+  h5 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+header > div {
+  background-color: #012443;
+  color: white;
+  div {
+    padding: 2% 30%;
+    @include flex-container(space-evenly, center);
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+.seccion1 {
+  color: white;
+  background-image: url(./images/banner_bg.png);
+  background-size: cover;
+  background-position: 82%;
+  height: 80vh;
+  @include flex-container(flex-start, center);
+  background-attachment: fixed;
+
+  span {
+    display: none;
+  }
+
+  .textoPortada {
+    @include flex-container(flex-start, center);
+    padding-left: 10vh;
+  }
+
+  .textoPortada1 {
+    color: red;
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .textoPortada2 {
+    color: $color_blue;
+    font-size: 20px;
+    font-weight: 200;
+  }
+}
+
+.fotoPerro1 {
+  padding: 5%;
+  img {
+    width: 90%;
+  }
+}
+.textoPerro1 {
+  padding: 5%;
+  @include flex-container(center, flex-start, column);
+  img {
+    width: 40px;
+    padding-bottom: 2%;
+  }
+}
+
+.seccion3 {
+  background-color: #f0f8f8;
+  text-align: center;
+  padding: 0 5%;
+
+  .textoTitulo {
+    @include flex-container(center, center, column);
+    margin-top: 3%;
+  }
+  img {
+    width: 40px;
+  }
+}
+
+.Perro1,
+.Perro2,
+.Perro3 {
+  img {
+    width: 50%;
+    margin: 10%;
+  }
+  @include flex-container(center, center, column);
+}
+.bold {
+  font-weight: bold;
+}
+
+.logos {
+  @include flex-container(space-evenly, center, row);
+  width: 50%;
+}
+
+.seccion5 {
+  color: white;
+  background-image: url(./images/review_bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  background-attachment: fixed;
+}
+
+.seccion6 {
+  button {
+    background-color: #009fb3;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    font-size: 8px;
+  }
+}
+
+.seccion7 {
+  background-color: $color_blue;
+  text-align: center;
+  padding: 0 5%;
+  color: white;
+
+  .textoTitulo {
+    @include flex-container(center, center, column);
+    margin-top: 3%;
+  }
+  img {
+    width: 40px;
+  }
+  button {
+    background-color: #e40f3c;
+    border-radius: 3px;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+}
+.footer {
+  padding: 5px;
+}
+
+.centrando {
+  @include flex-container(center, center);
+}
+
+.home {
+  padding: 30px 0px;
+  p {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  .seccion1 {
+    height: 90wh;
+    background-position: 75%;
+
+    span {
+      display: none;
+    }
+
+    .textoPortada {
+      @include flex-container(center, center, column);
+      padding-bottom: 50%;
+      text-align: center;
+    }
+    .textoPortada1 {
+      font-size: 15px;
+    }
+    .textoPortada2 {
+      font-size: 35px;
+    }
+  }
+  header > div {
+    display: none;
+  }
+  header > div {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  .seccion2,
+  .seccion3,
+  .seccion4,
+  .seccion5,
+  .seccion6,
+  .seccion7 p {
+    text-align: justify;
+  }
+
+  .seccion1 .textoPortada {
+    padding-left: 0;
+    padding-bottom: 300px;
+    .textoPortada1 {
+      font-size: 18px;
+    }
+    .textoPortada2 {
+      font-size: 30px;
+    }
+  }
+  .seccion1 {
+    height: 90vh;
+
+    span {
+      color: black;
+      font-size: 40px;
+      font-weight: bold;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: block;
+    }
+  }
+  header > div {
+    display: none;
+  }
+
+  .textoPerro1 img {
+    margin-left: 45%;
+  }
+}

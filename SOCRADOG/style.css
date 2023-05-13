@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(54,54,54);
+    position: fixed;
+}
+.logo {
+    width: 40%;
+    margin-left: 30px;
+}
+.logo .a{
+align-content: center;}
+
+.menu {
+    width: 60%;
+}
+    
+.logo img {
+        width:10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 12px;
+
+
+}
+header>div {
+    background-image: url(./images/portada1.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    padding-left: 5%;
+
+    
+}
+
+header h1 {
+    padding-right: 3%;
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+}
+.opciones {
+    display: flex;
+    padding: 40px;
+    text-align: center;
+}
+.opciones div {
+    padding: 10px;
+}
+.opciones img {
+    /* width: 20%;
+    min-width:30px ;
+    max-width: 50px; 
+    width: clamp(30px, 10%, 50px);*/
+    max-width: 15%; 
+	height: auto; 
+    border: solid black 1px;
+    border-radius: 50%;
+    padding: 3px;
+
+}
+.opciones h3 {
+    color: black;
+    font-size: 12px;
+    
+}
+.opciones p {
+    color: black;
+    font-size: 10px;
+    
+}
+.portada2  {
+    background-image: url(./images/portada2.jpg);
+    background-size: cover;
+    background-position: center;
+    height:50vh ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    padding-left: 5%;}
+
+h4 {
+    text-align: center;
+    font-weight: normal;
+
+}
+
+.perritos {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+.perritos div {
+    padding: 10px;
+}
+
+h5{
+    font-size: 12px;
+    font-weight: normal;
+margin-top: 0;
+margin-bottom: 0;}
+
+.perritos .dos div {
+    margin-top: 0;
+}
+
+.foto{
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    width: 180px;
+}
+.gru{
+    background-image: url(./images/dog1.jpg);
+  
+}
+.fito {
+    background-image: url(./images/dog2.jpg);
+    
+    
+}
+.matilda {
+    background-image: url(./images/dog3.jpg);
+   
+    
+}
+
+.dana {
+    background-image: url(./images/dog4.jpg);
+   
+    
+}
+
+.rufo {
+    background-image: url(./images/dog5.jpg);
+   
+}
+.tor {
+    background-image: url(./images/dog6.jpg);
+   
+    
+}
+.canela {
+    background-image: url(./images/dog7.jpg);
+    
+    
+}
+.sultan {
+    background-image: url(./images/dog8.jpg);
+   
+    
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(54,54,54);
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer ul {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0 5%;
+}
+footer img{
+    height: 20px;
+    width: 20px;
+    margin: 8px;
+}

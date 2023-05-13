@@ -1,0 +1,123 @@
+$color_dark_blue: RGB(35, 41, 67);
+$padding-col: 8vw;
+@mixin flex-container($j-content, $a-items, $f-direction: row) {
+  display: flex;
+  justify-content: $j-content;
+  align-items: $a-items;
+  flex-direction: $f-direction;
+}
+@mixin boton {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  padding: 4px 6px;
+}
+
+body {
+  color: white;
+}
+header {
+  background-color: $color_dark_blue;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+
+  .izquierda {
+    @include flex-container(flex-start, center);
+
+    p {
+      margin: 0;
+
+      span {
+        background-color: white;
+        color: $color_dark_blue;
+        font-weight: bold;
+      }
+    }
+  }
+  .derecha {
+    @include flex-container(flex-end, center);
+
+    button {
+      background-color: $color_dark_blue;
+      color: white;
+      border: 1px solid white;
+      border-radius: 3px;
+      @include flex-container(center, center);
+    }
+  }
+}
+hr {
+  opacity: 1;
+  border-top: 2px solid white;
+}
+.section1 {
+  background-color: $color_dark_blue;
+  padding-top: 60px;
+
+  div {
+    padding: $padding-col;
+
+    button {
+      @include boton;
+    }
+  }
+}
+.aliquam {
+  background-color: RGB(111, 195, 223);
+  padding: $padding-col;
+}
+.tempus {
+  background-color: RGB(141, 130, 196);
+  padding: $padding-col;
+}
+.magna {
+  background-color: RGB(234, 140, 128);
+  padding: $padding-col;
+}
+.ipsum {
+  background-color: RGB(231, 183, 135);
+  padding: $padding-col;
+}
+.consequat {
+  background-color: RGB(141, 169, 232);
+  padding: $padding-col;
+}
+.etiam {
+  background-color: RGB(136, 197, 164);
+  padding: $padding-col;
+}
+footer {
+  background-color: $color_dark_blue;
+  padding: $padding-col;
+  button {
+    @include boton;
+  }
+  hr {
+    width: 55%;
+  }
+  form {
+    padding: 5vw 0;
+
+    div {
+      @include flex-container(space-between, center);
+
+      input {
+        width: 48%;
+      }
+    }
+    .grande {
+      width: 100%;
+      margin: 4% 0;
+    }
+  }
+
+  .email {
+    padding: 5vw 0;
+
+    p {
+      @include flex-container(center, center);
+    }
+  }
+}

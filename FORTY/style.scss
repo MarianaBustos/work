@@ -1,0 +1,165 @@
+.Uno {
+  height: 10vw;
+}
+
+.UnoAzul {
+  background-color: rgb(26, 30, 51);
+}
+.DosAzul {
+  background-color: rgb(26, 30, 51);
+}
+.UnoCeleste {
+  background-color: rgb(94, 182, 215);
+}
+
+.UnoMorado {
+  background-color: rgb(122, 107, 183);
+}
+.UnoMagenta {
+  background-color: rgb(228, 119, 111);
+}
+.UnoAmarillo {
+  background-color: rgb(223, 169, 116);
+}
+.DosCeleste {
+  background-color: rgb(122, 150, 226);
+}
+.UnoVerde {
+  background-color: rgb(119, 186, 147);
+}
+
+.Hi {
+  color: white;
+  padding: 20px;
+
+  h1 {
+    font-size: 24px;
+  }
+  hr {
+    height: 2px;
+    background-color: white;
+    opacity: 100%;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+.GetStarted {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(26, 30, 51, 0);
+  height: 20px;
+  p {
+    font-size: 12px;
+  }
+}
+
+.h1Blanco {
+  font-size: 20px;
+  color: white;
+}
+
+.hrBlanco {
+  height: 2px;
+  color: white;
+  opacity: 100%;
+}
+
+.pBlanco {
+  font-size: 12px;
+  color: white;
+}
+
+.padding {
+  padding: 70px;
+}
+
+.Forty {
+  color: white;
+  font-size: 10px;
+  padding: 5px;
+
+  span {
+    background-color: white;
+    color: black;
+    font-size: 10px;
+  }
+}
+
+.menu {
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+
+  p {
+    margin-bottom: 0;
+    font-size: 8px;
+  }
+  .borde {
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+    padding: 5px 10px;
+
+    span {
+      font-size: 18px;
+    }
+  }
+}
+input {
+  background-color: white;
+  width: 45%;
+}
+.form2 input {
+  width: 90%;
+}
+
+.massaLibero {
+  padding: 50px;
+  padding-bottom: 20px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: row;
+}
+.paddingIzq {
+  padding-left: 60px;
+  padding-bottom: 40px;
+}
+
+.correo {
+  color: white;
+  font-size: 8px;
+  p {
+    margin: 0px;
+  }
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-align: center;
+  align-items: center;
+}
+.todosMails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.form3 {
+  padding-bottom: 2px;
+}
